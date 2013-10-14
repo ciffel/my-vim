@@ -17,8 +17,9 @@ Bundle "honza/vim-snippets"
 " My Bundles here:
 Bundle 'garbas/vim-snipmate'
 Bundle 'altercation/vim-colors-solarized'
-Bundle 'Lokaltog/vim-powerline'
+Bundle 'bling/vim-airline'
 Bundle 'Valloric/YouCompleteMe'
+Bundle 'kien/ctrlp.vim'
 Bundle 'scrooloose/syntastic'
 
 "My settings
@@ -51,8 +52,6 @@ set hlsearch
 set ignorecase smartcase
 noremap <CR> :nohlsearch<CR>
 
-"Powerline
-let g:Powerline_symbols='unicode'
 set laststatus=2
 
 "Snipmate
@@ -60,6 +59,8 @@ imap <leader><tab> <Plug>snipMateNextOrTrigger
 
 "YCM
 let g:ycm_confirm_extra_conf=0
+let g:ycm_autoclose_preview_window_after_completion=1
+let g:ycm_autoclose_preview_window_after_insertion=1
 
 
 " ======================================
