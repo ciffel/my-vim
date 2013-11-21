@@ -10,17 +10,21 @@ call vundle#rc()
 Bundle 'gmarik/vundle'
 
 " Install dependencies:
-Bundle "MarcWeber/vim-addon-mw-utils"
-Bundle "tomtom/tlib_vim"
+Bundle "garbas/vim-snipmate"
 Bundle "honza/vim-snippets"
+Bundle 'tomtom/tlib_vim'
+Bundle 'MarcWeber/vim-addon-mw-utils'
 
 " My Bundles here:
-Bundle 'garbas/vim-snipmate'
 Bundle 'altercation/vim-colors-solarized'
 Bundle 'bling/vim-airline'
 Bundle 'Valloric/YouCompleteMe'
 Bundle 'kien/ctrlp.vim'
 Bundle 'scrooloose/syntastic'
+Bundle 'tpope/vim-rails'
+Bundle 'tpope/vim-surround'
+Bundle 'majutsushi/tagbar'
+Bundle 'tsaleh/vim-matchit'
 
 "My settings
 set encoding=utf-8
@@ -54,14 +58,13 @@ noremap <CR> :nohlsearch<CR>
 
 set laststatus=2
 
-"Snipmate
-imap <leader><tab> <Plug>snipMateNextOrTrigger
-
 "YCM
 let g:ycm_confirm_extra_conf=0
 let g:ycm_autoclose_preview_window_after_completion=1
 let g:ycm_autoclose_preview_window_after_insertion=1
 
+"Snipmate
+imap <leader><tab> <Plug>snipMateNextOrTrigger
 
 " ======================================
 "  custom key and plugin configurations
@@ -83,3 +86,4 @@ if has("autocmd")
     \   exe "normal g'\"" |
     \ endif
 endif
+
