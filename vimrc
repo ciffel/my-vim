@@ -34,6 +34,7 @@ set smartindent
 set number
 set t_Co=256
 syntax enable
+set backspace=indent,eol,start
 
 "tab
 set shiftwidth=2
