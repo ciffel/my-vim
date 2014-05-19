@@ -24,7 +24,7 @@ Bundle 'scrooloose/syntastic'
 Bundle 'tpope/vim-rails'
 Bundle 'tpope/vim-surround'
 Bundle 'majutsushi/tagbar'
-Bundle 'tsaleh/vim-matchit'
+Bundle 'vim-scripts/matchit.zip'
 
 "My settings
 set encoding=utf-8
