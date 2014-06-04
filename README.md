@@ -1,7 +1,5 @@
 # My Vim Settings
 ```
 $ git clone https://github.com/ciffel/my-vim .vim
-$ ln -s ~/.vim/vimrc ~/.vimrc
-$ cd .vim
-$ ./install.sh
+$ ~/.vim/install.sh
 ```
